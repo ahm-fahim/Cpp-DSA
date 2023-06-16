@@ -8,6 +8,7 @@ int main()
 
     int sum{};
 
+    // initialization; condition; update
     for (int count = 1; count <= num; count++)
     {
         sum += count;
