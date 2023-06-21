@@ -1,0 +1,1 @@
+{"name":"Local: 11","url":"/home/fahim/Documents/Cpp-DSA/11.Array/11.2SearchingArray/11.2Binary.cpp","tests":[{"id":1687328507665,"input":"7\n11 22 44 55 66 77 88\n55","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/fahim/Documents/Cpp-DSA/11.Array/11.2SearchingArray/11.2Binary.cpp","group":"local","local":true}
