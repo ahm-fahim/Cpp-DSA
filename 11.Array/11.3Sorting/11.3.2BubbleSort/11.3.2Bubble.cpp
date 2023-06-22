@@ -4,14 +4,25 @@ using namespace std;
 /**
  * Bubble Sort Algorithm
  *
- * "Find The Minimum Element In The Unsorted Array
- *  And Swap It With The Element Of It Beginning.
- * "
+ *  In the array compare 1st and 2nd value each other
+ *
+ *  if 1st > 2nd , then swap their index
+ *  if 1st < 2nd , then not swap their index
+ *
+ *  after
+ *
+ *  if 2nd > 3rd , then swap their index
+ *  if 2nd < 3rd , then not swap their index
+ * 
+ *  same process going on array first to last index 
+ * 
+ *
+ * 
  *
  *
  */
 
-void bubbleSort(int arr[], int arrSize)
+void insertionSort(int arr[], int arrSize)
 {
     int counter = 1;
 
@@ -49,7 +60,7 @@ int main()
         cin >> array[i];
     }
 
-    bubbleSort(array, arraySize);
+    insertionSort(array, arraySize);
 
     return 0;
 }
